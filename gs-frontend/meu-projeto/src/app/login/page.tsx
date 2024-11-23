@@ -28,7 +28,7 @@ const Login = () => {
 
     // Validação dos campos
     if (!email || !isValidEmail(email)) {
-      setError('Por favor, insira um email válido.');
+      setError('Por gentileza, insira um email válido.');
       return;
     }
 
